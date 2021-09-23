@@ -1,0 +1,102 @@
+.img1{
+    background-image: url('e1.png')
+}
+
+.img2{
+    background-image: url('e2.jpg')
+}
+
+.img3{
+    background-image: url('e3.png')
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+
+
+/*  Category type Cards*/
+.hh1 {
+  color: black;
+  font-weight: 400;
+  text-align: "center";
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 60px;
+ }
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.homecard {
+  margin: 30px auto;
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.homecard .card_image {
+  
+  border-radius: 40px;
+  width: inherit;
+  height: inherit;
+}
+
+.homecard .card_image img {
+  width: inherit;
+  height: inherit;
+  object-fit:cover;
+ 
+}
+
+.card_image img{
+  border: 3px solid #292b2c;
+}
+
+.homecard .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.homecard:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}

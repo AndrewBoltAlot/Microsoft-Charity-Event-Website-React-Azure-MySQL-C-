@@ -1,0 +1,7 @@
+﻿Packages to install:
+
+1. MySQL.Data.
+2. System.Data.SqlClient.
+3. System.IdentityModel.Tokens.
+4. Microsoft.AspNetCore.Cors
+5. Moq

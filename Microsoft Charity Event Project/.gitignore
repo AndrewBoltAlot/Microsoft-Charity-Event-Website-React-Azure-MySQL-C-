@@ -1,0 +1,5 @@
+.Ds_Store
+# local caches and logs
+**/.vs/
+**/CharityEvent.UnitTest/bin/Debug/*
+CharityEvent/Backend/CharityEvent.UnitTest/obj/*

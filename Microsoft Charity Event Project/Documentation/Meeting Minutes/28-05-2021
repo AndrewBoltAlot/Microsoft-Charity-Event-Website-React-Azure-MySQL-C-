@@ -1,0 +1,10 @@
+Date: 28/05/2021
+Meeting time: 1pm - 2pm
+Topics discussed:
+1. Roles of the team members in the project. 
+   Highlights: 4 members prefer back-end.
+               1 member prefers front-end.
+               2 members would like to work on both.
+2. Read the project plan assignment and distributed the tasks among team members. 
+   Highlights: For data plan we can use NOSQL tables for each microservice to track it's events and use Relational database for other data.
+3. Goals for this week. Time and date for the next meeting. 

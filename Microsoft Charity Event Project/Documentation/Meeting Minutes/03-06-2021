@@ -1,0 +1,12 @@
+Date: 03/06/2021
+Meeting time: 10:30am - 12pm
+Topics discussed:
+1. Finalized technologies to be used for the project.
+   Front-end: React, JavaScript, HTML, CSS
+   Back-end: C#,REST API, Postman
+   Framework: .Net
+   Database: Azure SQL
+   Project Management Tool: Jira
+   Architecture/System Design: MVC
+2. Analytics for Organizer
+3. Data plan: Data will be gathered from the participants and organizers who will use the system. 

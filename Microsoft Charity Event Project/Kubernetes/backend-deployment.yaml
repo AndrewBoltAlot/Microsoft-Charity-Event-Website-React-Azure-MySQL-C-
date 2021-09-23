@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: charity-backend
+  name: charity-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: charity-backend
+  template:
+    metadata:
+      labels:
+        app: charity-backend
+        name: charity-backend
+    spec:
+      containers:
+      - name: charity-backend
+        image: waterzss0508/charity:backend-img
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 443
+          - containerPort: 80
+          - containerPort: 5000
+
+
+
+---
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: charity-backend
+  labels:
+    app: charity-backend
+
+spec:
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 4480
+      targetPort: 80
+      name: tcp80
+
+  selector:
+    app: charity-backend

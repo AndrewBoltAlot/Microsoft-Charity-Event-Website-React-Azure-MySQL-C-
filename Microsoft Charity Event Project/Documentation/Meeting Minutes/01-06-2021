@@ -1,0 +1,12 @@
+Date: 01/06/2021
+Meeting time: 11:30pm - 1pm
+Topics discussed:
+1. Doubts regarding the problem statement and the project plan that needed to be discussed with Microsoft mentors. 
+   Highlights:Q.1 What all microservices will be there in our project? What approach should we follow to figure them out? Is it Domain-Driven-Design? Can we get more insights about DDD?
+              Q.2 Ask them about their project plan expectations.
+              Q.3 What are the user stories going to be? (Should we ask this one or not?)
+              Q.4 What will be the data?
+2. Microservices architecture to be used for the project.
+   Conclusion: 1 microservice for UX and 1 for back end.
+3. Time and date for the next meeting. 
+

@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   }
+
+   .epbody {
+	background-color: #f6f5f7;
+	align-items: center;
+	flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 3em;
+ display: grid;
+ place-items: center;
+}
+   
+   .EventTypecontainer {
+	background-color: #fff;
+	position: relative;
+	display: grid;
+	grid-template-columns: 300px 600px;
+	border-radius: 10px;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+	margin-bottom: 40px;
+   }
+	   
+.main-img{
+	height: 400px;
+	
+ }
+
+
+	.img-fluid{
+		width:  1000px;
+		
+	 	border-radius: 5px 0 0 5px;
+		border: 1px solid rgba(0, 0, 0, 0.356);
+		background-size:contain;
+	}
+   
+	 .i {
+	  margin-left: 20px;
+	  font-size: 1.5rem;
+	 }
+	
+   .container__text {
+	padding: 40px 40px 0;
+   }
+   
+   .h1 {
+	 color: black;
+	 font-weight: 400;
+	 text-align: center;
+	}
+   
+	.container__text__star span {
+	 font-size: 0.8rem;
+	 color: #000000;
+	 margin: -5px 0 20px;
+	}
+   
+	.p {
+	 font-size: 0.9rem;
+	}
+   
+	.container__text__timing {
+	 display: flex;
+	 margin: 20px 0 10px;
+   }
+	 .container__text__timing_time {
+	  margin-right: 40px;
+	 }
+   
+	 .h2Below {
+	  margin-bottom: 5px;
+	  font-size: 1rem;
+	  font-weight: 400;
+	  color: #818189;
+	  text-transform: capitalize;
+	 }
+	 .pBelow {
+	  color: black;
+	  font-weight: bold;
+	  font-size: 1.2rem;
+	 }
+
+	 
+.epbody {
+	background-image: linear-gradient(45deg, #ffffff, #f1f1f7);
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 30vh;
+	margin: 0;
+	
+}
+
+.courses-container {
+	
+}
+
+.course {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.course h6 {
+	opacity: 0.6;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 5px 0;
+	margin-top: 10px;
+	text-transform: capitalize;
+	width: 340px;
+	height: 50px;
+}
+.course h3 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+	width: 210px;
+}
+
+.course-preview {
+	background-color: #263238;
+	color: #fff;
+	padding: 10px;
+	height: 250px;
+	width: 250px;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+	object-fit:cover;
+	
+	
+}
+.demo-wrap {
+	position: relative;
+  }
+  
+  .demo-wrap:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 230px;
+	width: 210px;
+	opacity: 0.4;
+	
+	
+	
+  }
+  
+  .demo-content {
+	position: relative;
+  }
+
+.course-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.course-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.progress-container {
+	position: absolute;
+	margin-top: -200px;
+	right: 30px;
+	text-align: right;
+	width: 150px;
+}
+
+.progress {
+	background-color: #ddd;
+	border-radius: 3px;
+	height: 5px;
+	width: 100%;
+
+}
+
+.progress::after {
+	border-radius: 3px;
+	background-color: #263238;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 90%;
+}
+
+.progress-text {
+	font-size: 10px;
+	opacity: 0.6;
+	letter-spacing: 1px;
+}
+
+.btn {
+	background-color: #2632380c;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+	letter-spacing: 1px;
+	width: 700px;
+	height: 250px;
+}
+   
+table {
+	width: 80%;
+	margin-top: 30px;
+	margin-left: 2px;
+  }
+
+  th{
+
+	font-size: medium;
+  }
+
+  td{
+
+	font-size: small;
+	color: #818189;
+  }
+
+  body{
+	background: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+
+  }
+  
+  .search {
+	width: 100%;
+	position: relative;
+	display: flex;
+  }
+  
+  .searchTerm {
+	width: 100%;
+	border: 3px solid #263238;
+	border-right: none;
+	padding: 5px;
+	height: 40px;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+	color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+	color: #263238;
+  }
+  
+  .searchButton {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #263238;
+	background: #263238;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+	width: 400px;
+	position: relative;
+	margin: 20px;
+  }
+
+.main-img{
+	display:flex;
+}
+
+.pageheight{
+	min-height: 750px;
+	
+}
+
+.errfn{
+	color: #ff4b2b;
+	height: 30px;
+  }
+  
